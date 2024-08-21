@@ -15,9 +15,39 @@ body {
     align-items: center;
 }
 
+.cryto_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cryto_image img {
+    margin-right: 20px;
+    height:50%;
+    width:40%;
+}
+
 .second_text h4 {
     margin-right: 10px;
 }
 .second_text a {
     color:white
+}
+
+#Main_Table {
+    width: 100%;
+    border-collapse: collapse;
+    color:white
+}
+
+#Main_Table td, .Main_Table th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+#Main_Table tr#ROW1  {
+    background-color:#646868;
+    color:white;
 }

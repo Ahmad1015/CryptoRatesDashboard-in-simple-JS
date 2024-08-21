@@ -1,9 +1,23 @@
 .Top_Text{
     text-align: center;
     color:white;
-    ;
+    
 }
 
 body {
     background-color: #2c2b30;
   }
+.second_text {
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_text h4 {
+    margin-right: 10px;
+}
+.second_text a {
+    color:white
+}

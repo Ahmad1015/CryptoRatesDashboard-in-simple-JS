@@ -1,6 +1,10 @@
 const table = document.getElementById("Main_Table")
 
+async function refresh(){
+  location.reload()
+}
 
+setTimeout(refresh,5000)
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
@@ -10,7 +14,6 @@ var red = 'rgb(255, 0, 0)';
 var green = 'rgb(0,128,0)';
 
 function createRow(values){
-    console.log(values) 
     const newRow = table.insertRow()
     const cell1 = newRow.insertCell(0)
     const cell2 = newRow.insertCell(1)

@@ -5,3 +5,4 @@ Features
 * Display of top cryptocurrencies in a tabular format.
 * Shows name, price, percentage change, 24h trading volume, and market capitalization.
 * Clean and responsive UI.
+* Page refreshes every 5 seconds.
